@@ -1,0 +1,41 @@
+h1 {
+    color:lightblue;
+    padding-left:50px;
+    
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border:2px solid lightblue
+
+}
+
+.games{
+    grid-row: row 400px; ;
+    flex-wrap:wrap;
+    text-align: center;
+}
+
+.gamest{
+    grid-row: row 400px; ;
+    flex-wrap:wrap;
+}
+.chess{
+flex-wrap:wrap;
+text-align: right;
+}
+
+.singleplayer{
+    grid-row: row 400px; ;
+    flex-wrap:wrap;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
